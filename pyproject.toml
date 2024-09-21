@@ -1,0 +1,42 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.8.0,<4"]
+
+[project]
+name = "granitewxc"
+authors = [
+    {name = "Shraddha Singh, email = shraddha.singh@ibm.com"},
+    {name = "Julian Kuehnert"},
+    {name = "Will Torjak"},
+    {name = "Johannes Schmude"},
+    {name = "Daniel Salles Civitarese"},
+    {name = "Johannes Jakubik"},  
+]
+classifiers = [
+]
+requires-python = ">=3.11"
+dynamic = ["version", "description"]
+dependencies = [
+    "prithviwxc >= 0.1.0",
+    "xarray >= 2024.9.0",
+    "scipy >= 1.14.1",
+    "wget >= 1.21.4",
+    "pyyaml >= 6.0.2"
+]
+
+[project.optional-dependencies]
+examples = [
+    "notebook ~= 7.2",
+    "matplotlib >= 3.8",
+]
+
+[tool.ruff]
+line-length = 79
+select = [
+    "C",
+    "F",
+    "E",
+    "W",
+    "B",
+    "I",
+]

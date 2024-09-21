@@ -31,24 +31,6 @@ class DataConfig:
     def from_argparse(args: Namespace):
         return DataConfig(**args.__dict__)
 
-    def __str__(self):
-        return (
-            f"Input: {[self.input_size_time, self.input_size_level, self.input_size_lat, self.input_size_lon]}, "
-            f"Output: {[self.target_size_time, self.input_size_level, self.input_size_lat, self.input_size_lon]}, "
-            f"Lead time: {self.target_lead_time}, "
-            f"Upper level vars: {self.upper_level_vars}, "
-            f"Surface vars: {self.surface_vars}, "
-        )
-
-    def __repr__(self):
-        return (
-            f"Input: {[self.input_size_time, self.input_size_level, self.input_size_lat, self.input_size_lon]}, "
-            f"Output: {[self.target_size_time, self.input_size_level, self.input_size_lat, self.input_size_lon]}, "
-            f"Lead time: {self.target_lead_time}, "
-            f"Upper level vars: {self.upper_level_vars}, "
-            f"Surface vars: {self.surface_vars}, "
-        )
-
 
 class ModelConfig:
     def __init__(
