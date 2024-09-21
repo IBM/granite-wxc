@@ -4,7 +4,7 @@ from typing import Optional, Callable
 import torch
 from torch.utils.data import Dataset
 
-from PrithviWxC.merra2 import Merra2Dataset
+from PrithviWxC.dataloaders.merra2 import Merra2Dataset
 
 class Merra2DownscaleDataset(Dataset):
     """For Climate downscaling Input data has low resolution, and target data has high resolution
