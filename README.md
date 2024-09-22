@@ -2,6 +2,10 @@
 
 This repository contains code and examples to apply the [Prithvi WxC foundation model](https://github.com/NASA-IMPACT/Prithvi-WxC) to downscaling tasks. In particular, the repository contains both code and instructions for generic fine-tuning tasks as well as fine-tuned models for MERRA2 2m temperature data as reference.
 
+<p align="center">
+<img src="downscaling_T2M_coolwarm_animated.gif" alt="6x downscaling of MERRA-2 2m temperature" width="60%"/>
+</p>
+
 ## Getting started
 
 1. Create a virtual environment
