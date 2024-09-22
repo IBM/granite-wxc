@@ -1,4 +1,4 @@
-# granite-geospatial-wxc-downscaling 
+# granite-wxc
 
 This repository contains code and examples to apply the [Prithvi WxC foundation model](https://github.com/NASA-IMPACT/Prithvi-WxC) to downscaling tasks. In particular, the repository contains both code and instructions for generic fine-tuning tasks as well as fine-tuned models for MERRA2 2m temperature data as reference.
 
