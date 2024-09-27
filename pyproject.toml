@@ -14,12 +14,12 @@ authors = [
 ]
 classifiers = [
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dynamic = ["version", "description"]
 dependencies = [
     "prithviwxc >= 0.1.0",
     "xarray >= 2024.9.0",
-    "scipy >= 1.14.1",
+    "scipy",
     "wget >= 1.21.4",
     "pyyaml >= 6.0.2",
     "h5netcdf >= 1.3.0"
